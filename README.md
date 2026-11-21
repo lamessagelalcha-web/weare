@@ -206,4 +206,5 @@ If automatic deploy is enabled, Render will redeploy after the push.
 ## Project license
 Choose and add a license before public reuse. Do not include real student personal information in sample data or repositories.
 #   w e a r e  
+ #   w e a r e  
  
