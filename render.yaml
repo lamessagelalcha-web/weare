@@ -1,7 +1,9 @@
+
 services:
   - type: web
     name: oems-web
     runtime: python
+    plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
     envVars:
@@ -20,5 +22,6 @@ services:
 
 databases:
   - name: oems-db
+    plan: free
     databaseName: oems
     user: oems_user
